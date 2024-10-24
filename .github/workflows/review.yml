@@ -11,7 +11,6 @@ jobs:
     steps:
       - name: pr-agent-nuwm
         uses: EzGrade/Pr-Agent-NUWM@main
-        token: ${{ secrets.PERSONAL_TOKEN }}
         env:
           APP_ID: ${{ secrets.APP_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
